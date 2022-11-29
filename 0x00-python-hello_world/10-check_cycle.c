@@ -13,6 +13,7 @@ int check_cycle(listint_t *list)
 	listint_t *current;
 	listint_t *initial;
 	initial = list;
+	current = initial;
 	while(initial && current && current->next) {
 		if(current->n == initial->n) {
 			return (1);
