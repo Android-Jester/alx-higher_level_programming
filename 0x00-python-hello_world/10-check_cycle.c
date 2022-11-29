@@ -2,12 +2,9 @@
 /**
  * int check_cycle(listint_t *list) - checks the linkedlist if there are any
  * cycles
- *
+ * Author: Duah Kwadwo Adjei
  * Return: 1 if there are cycles and 0 if there are none.
  */
-
-
-
 int check_cycle(listint_t *list)
 {
 	listint_t *current;
