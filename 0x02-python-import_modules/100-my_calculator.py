@@ -5,9 +5,9 @@ if __name__ == '__main__':
     argv = sys.argv[1:]
     argc = len(argv)
     if argc < 3:
-        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>\n")
         exit(1)
-    operators = ["+","-", "*" ,"/"]
+    operators = "+-*/"
     operator = argv[1]
     if operator not in operators:
         print("Unknown operator. Available operators: +, -, * and /")
