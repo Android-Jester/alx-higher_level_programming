@@ -17,3 +17,4 @@ if __name__ == "__main__":
     operator_funcs = [add, sub, mul, div]
     func = operator_funcs[operators.index(operator)]
     print("{} {} {} = {}".format(a, operator, b, func(a, b)))
+
