@@ -7,10 +7,10 @@ if __name__ == '__main__':
     if argc < 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>\n")
         exit(1)
-    operators = "+-*/"
+    operators = ["+","-", "*" ,"/"]
     operator = argv[1]
     if operator not in operators:
-        print("Unknown operator. Available operators: +, -, * and /")
+        print("Available operators: +, -, * and /")
         exit(1)
     a = int(argv[0])
     b = int(argv[2])
