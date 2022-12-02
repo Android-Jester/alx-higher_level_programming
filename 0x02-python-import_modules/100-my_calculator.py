@@ -10,7 +10,7 @@ if __name__ == '__main__':
     operators = ["+","-", "*" ,"/"]
     operator = argv[1]
     if operator not in operators:
-        print("Available operators: +, -, * and /")
+        print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
     a = int(argv[0])
     b = int(argv[2])
