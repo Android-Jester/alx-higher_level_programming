@@ -1,12 +1,8 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    from calc_1 import add, sub, mul, div
+    from calculator_1 import add, sub, mul, div
     import sys
     argv = sys.argv[1:]
-    count = 0
-    for i in argv:
-        print(f"{count:d}: {i:s}")
-        count += 1
     argc = len(argv)
     if argc < 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
