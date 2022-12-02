@@ -11,4 +11,4 @@ if __name__ == "__main__":
     else:
         print(f"{argc:d} arguments:")
     for i in range(argc):
-        print(f"{i:d}: {sys.argv[i]:s}")
+        print(f"{i+1:d}: {sys.argv[i]:s}")
