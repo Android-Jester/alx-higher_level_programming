@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import sys
     argv = sys.argv[1:]
-    argc = len(argv)
+    argc = len(argv) + 1
     if argc == 0:
         print(f"{argc:d} arguments.")
     elif argc == 1:
