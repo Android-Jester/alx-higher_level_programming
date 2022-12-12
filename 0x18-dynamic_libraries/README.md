@@ -1,2 +1,1 @@
-# C dynamic Libraries
-
+tasks on dynamic libraries
